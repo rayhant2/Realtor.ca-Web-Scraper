@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EXPECTED
 options = webdriver.ChromeOptions()
 options.add_argument('--disable-popup-blocking')
 chrome = uc.Chrome(options=options)
-wait = WebDriverWait(chrome, 30)           # Content on website loaded dynamically using JavaScript - waits for the elements to be present
+wait = WebDriverWait(chrome, 30)           # Content on website loaded dynamically using JavaScript - waits (30 seconds) for the elements to be present before timing out
 
 
 def scrape_properties():
