@@ -46,7 +46,9 @@ The script will open a Chrome browser, scrape the property data, and export it t
   <br>
 - **Other future updates include:** Automation, Filtering results based on price/beds/baths, Including links,lot size, etc. in the spreadsheet, and more
 <br>
+
 *If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.*
+
 <br>
 <br>
 
