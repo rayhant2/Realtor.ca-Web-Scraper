@@ -42,7 +42,7 @@ The script will open a Chrome browser, scrape the property data, and export it t
 
 - The scraper only goes through the first, most recent 600 properties (50 pages x 12 listings); if there are more pages with properties listings, they are neglected - need to find a way to scrape all listings based on the number of pages available
 - For now, this property scraper only works for the city Toronto, ON - need to find a way to optimize the scraper to work for any city/region specified
-- Another issue was that I couldn't find a way to use the button to navigate the listing pages; I'm not sure if its because it was a Javascript element, but in order to counter this issue, I found a way where new tabs could be opened and scraping the data from there. Hopefully there is a better way to achieve this, since opening 50 tabs before closing the driver is not an efficient method for scraping data.
+- Another issue was that I couldn't find a way to use the button to navigate the listing pages; I'm not sure if its because it wasn't an HTML element, but in order to counter this issue, I found a way where new tabs could be opened and scraping the data from there. Hopefully there is a better way to achieve this, since opening 50 tabs before closing the driver is not an efficient method for scraping data.
   <br>
 - **Other future updates include:** Automation, Filtering results based on price/beds/baths, Including links,lot size, etc. in the spreadsheet, and solutions to the issues mentioned above.
 <br>
