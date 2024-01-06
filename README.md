@@ -4,7 +4,7 @@ With thoughts of moving within Toronto, scrolling through countrless pages is ti
 <br>
 
 ## Overview
-This Python script utilizes Selenium and Undeteced_Chromedriver to scrape property data from Realtor.ca. It is designed to extract key information such as address, price, bedrooms, and bathrooms, and export all the data into an Excel Spreadsheet. 
+This Python script utilizes Selenium and Undetected_Chromedriver to scrape property data from Realtor.ca. It is designed to extract key information such as address, price, bedrooms, and bathrooms, and export all the data into an Excel Spreadsheet. 
 <br>
 <br>
 
